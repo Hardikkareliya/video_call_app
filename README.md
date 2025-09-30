@@ -1,4 +1,4 @@
-# Hipster Assignment Task
+#Assignment Task
 
 A modern Flutter application featuring video calling capabilities and user management with offline
 support.
