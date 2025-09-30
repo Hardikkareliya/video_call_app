@@ -28,7 +28,7 @@ Before running this project, ensure you have:
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Hardikkareliya/video_call_app.git
-   cd assignment_task
+   cd video_call_app
    ```
 
 2. **Install dependencies**
