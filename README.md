@@ -11,15 +11,7 @@ support.
 - **Modern UI**: Clean, responsive design with smooth animations
 - **Authentication**: Secure login system with session management
 
-## Screenshots
-
-The app includes:
-
-- Splash screen with smooth animations
-- Login screen with form validation
-- Home screen with navigation options
-- Users list with modern card design
-- Video call interface with controls
+ 
 
 ## Prerequisites
 
