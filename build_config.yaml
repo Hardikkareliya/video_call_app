@@ -1,0 +1,64 @@
+# Build Configuration for Hipster Assignment Task
+# This file contains build configurations for different environments
+
+# App Information
+app:
+  name: "Hipster Assignment Task"
+  package: "com.hipster.assignment.task"
+  version: "1.0.0"
+  build_number: 1
+
+# Build Environments
+environments:
+  debug:
+    flavor: "debug"
+    build_type: "debug"
+    minify: false
+    obfuscate: false
+    
+  release:
+    flavor: "release"
+    build_type: "release"
+    minify: true
+    obfuscate: true
+
+# Platform Configurations
+platforms:
+  android:
+    min_sdk: 21
+    target_sdk: 34
+    compile_sdk: 34
+    
+  ios:
+    min_ios: "11.0"
+    target_ios: "17.0"
+
+# Build Commands
+build_commands:
+  android_debug: "flutter build apk --debug"
+  android_release: "flutter build apk --release"
+  android_bundle: "flutter build appbundle --release"
+  ios_debug: "flutter build ios --debug"
+  ios_release: "flutter build ios --release"
+
+# Signing Configuration
+signing:
+  android:
+    keystore_path: "android/app/upload-keystore.jks"
+    key_alias: "upload"
+    key_password: "your_key_password"
+    store_password: "your_store_password"
+    
+  ios:
+    team_id: "YOUR_TEAM_ID"
+    provisioning_profile: "YOUR_PROVISIONING_PROFILE"
+
+# Deployment Targets
+deployment:
+  google_play:
+    track: "internal"  # internal, alpha, beta, production
+    release_notes: "Initial release with video calling and user management"
+    
+  app_store:
+    track: "TestFlight"  # TestFlight, App Store
+    release_notes: "Initial release with video calling and user management"
